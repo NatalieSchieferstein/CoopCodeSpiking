@@ -42,9 +42,9 @@ Alternatively, check pyproject.toml for a list of dependencies.
 <!-- USAGE EXAMPLES -->
 ## Content 
 
-`main.ipynb`: resimulation of network simulations shown in main text 
-`supplement.ipynb`: resimulation of network simulations shown in Appendix S1 
-`methods.py`: contains all functions to create, simulate, and analyze the spiking networks 
+`main.ipynb`: resimulation of network simulations shown in main text <br>
+`supplement.ipynb`: resimulation of network simulations shown in Appendix S1  <br>
+`methods.py`: contains all functions to create, simulate, and analyze the spiking networks  <br>
 `tools.py`: auxiliary functions
 
 ## Usage
