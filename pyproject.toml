@@ -1,0 +1,18 @@
+[project]
+name = "project-coopcode-spiking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "brian2==2.7.1",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "pyqt5>=5.15.11",
+    "scipy>=1.15.2",
+    "spyder-kernels==3.0.*",
+    "tabulate>=0.9.0",
+    "tqdm>=4.67.1",
+]
