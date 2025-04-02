@@ -10,7 +10,6 @@
     <li><a href="#Prerequisites and Installation">Prerequisites and Installation</a></li>
     <li><a href="#Content">Content</a></li>
     <li><a href="#Usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -54,11 +53,6 @@ To get started, simply open `main.ipynb` where you will be guided step-by-step o
 * resimulate networks optimized for a certain receptive field size 
 * tune networks analytically for a certain receptive field size 
 A similar guide through the simulations of Appendix S1 of the paper can be found in `supplement.ipynb`.
-
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
