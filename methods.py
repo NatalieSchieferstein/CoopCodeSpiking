@@ -988,7 +988,8 @@ class Network():
                 gridline([self.sigma_bg], ax[1,1], lw=1, label=r'$\sigma_\mathrm{bg}$') 
                 ax[-1,1].set_xlabel('Inh feature population')
             else:
-                ax[:,1].remove()
+                ax[0,1].remove()
+                ax[1,1].remove()
         else:
             ax[0,0].plot(self.network['E'].Iext/mV, 'k.-')
             gridline([self.sigma_bg], ax[1,0], lw=1, label=r'$\sigma_\mathrm{bg}$') 
@@ -1004,6 +1005,7 @@ class Network():
                 ax[0,1].remove()
                 ax[1,1].remove()
         ax[0,0].set_ylim(bottom=0)
+        ax[1,0].set_ylim(bottom=0)
         return fig, ax 
     
     def postproc(self, sigma_smooth = 2, offset=500, recorded_units_per_population = 10, rate_binsize = 1):
@@ -1189,6 +1191,7 @@ class Network():
                  explosion_cutoff_rate = 300, edge_cutoff_rate = 40, tau_rate_filt=50, 
                  print_schedule = True):
         
+           
         # store input info:
         self.Tinit = Tinit
         self.Tsim = Tsim
@@ -1291,10 +1294,6 @@ class Network():
 
         np.savez(path + 'results.npz', **results)
         return 
-     
-
-        
-
     
     def which_cross_population_connections(self, source, target): 
         '''

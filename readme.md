@@ -41,8 +41,9 @@ Alternatively, check pyproject.toml for a list of dependencies.
 <!-- USAGE EXAMPLES -->
 ## Content 
 
-`main.ipynb`: resimulation of network simulations shown in main text <br>
-`supplement.ipynb`: resimulation of network simulations shown in Appendix S1  <br>
+`main.ipynb`: resimulation of networks shown in main text (Figs 8 & 10); demonstration of analytical tuning <br>
+`supplement_poisson.ipynb`: resimulation of Fig H in S1 Appendix (Poisson input and ER connectivity in small network) <br>
+`supplement.ipynb`: resimulation of Fig I in S1 Appendix ("homogeneous network" with tuned input to interneurons)  <br>
 `methods.py`: contains all functions to create, simulate, and analyze the spiking networks  <br>
 `tools.py`: auxiliary functions
 
