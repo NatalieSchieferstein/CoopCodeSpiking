@@ -52,7 +52,8 @@ Alternatively, check pyproject.toml for a list of dependencies.
 To get started, simply open `main.ipynb` where you will be guided step-by-step on how to
 * inspect parameter sets 
 * resimulate networks optimized for a certain receptive field size 
-* tune networks analytically for a certain receptive field size <br>
+* tune networks analytically for a certain receptive field size 
+
 A similar guide through the simulations of Appendix S1 of the paper can be found in `supplement.ipynb`.
 
 <!-- CONTACT -->
