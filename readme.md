@@ -54,7 +54,7 @@ To get started, simply open `main.ipynb` where you will be guided step-by-step o
 * resimulate networks optimized for a certain receptive field size 
 * tune networks analytically for a certain receptive field size 
 
-A similar guide through the simulations of Appendix S1 of the paper can be found in `supplement.ipynb`.
+A similar guide through the simulations of Appendix S1 of the paper can be found in `supplement_poisson.ipynb` and `supplement.ipynb`.
 
 <!-- CONTACT -->
 ## Contact
