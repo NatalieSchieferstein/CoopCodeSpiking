@@ -56,6 +56,9 @@ To get started, simply open `main.ipynb` where you will be guided step-by-step o
 
 A similar guide through the simulations of Appendix S1 of the paper can be found in `supplement_poisson.ipynb` and `supplement.ipynb`.
 
+## License 
+Distributed under the GNU General Public License. See LICENSE.txt for more information. 
+
 <!-- CONTACT -->
 ## Contact
 
