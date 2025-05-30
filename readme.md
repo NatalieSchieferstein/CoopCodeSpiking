@@ -2,6 +2,10 @@
 
 <h3 align="center">Cooperative Coding in Spiking Neural Networks</h3>
 
+[![DOI](https://zenodo.org/badge/959107122.svg)](https://doi.org/10.5281/zenodo.15553757)
+
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
